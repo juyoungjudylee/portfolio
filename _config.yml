@@ -1,0 +1,52 @@
+# Site
+title: 이주영 — HR Portfolio
+subtitle: High-Density HR Portfolio
+description: 데이터 기반 HR 운영과 AI 자동화로 조직이 빠르게 달릴 수 있는 기반을 만드는 이주영의 포트폴리오
+keywords: HR, People Operations, Portfolio, Juyoung Lee, 이주영
+author: 이주영
+language: ko
+timezone: Asia/Seoul
+
+# URL
+url: https://juyoungjudylee.github.io/portfolio
+root: /portfolio/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+
+# Home page setting
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Theme
+theme: juyoung
+
+# Deployment
+deploy:
+  type:
